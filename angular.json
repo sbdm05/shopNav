@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "shopNav"
+    }
+  },
+  "defaultProject": "shopNav",
+  "cli": {
+    "analytics": false
+  }
 }

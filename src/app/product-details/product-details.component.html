@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row">
+        <div *ngIf="product">
+            <img class="card-img-top" [src]="product.imgSrc">
+            <h3>{{ product.name }}</h3>
+            <h4>{{ product.price }}</h4>
+            <p>{{ product.description }}</p>   
+          </div>
+    </div>
+</div>
+
